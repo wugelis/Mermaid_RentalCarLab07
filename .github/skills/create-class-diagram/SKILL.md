@@ -44,7 +44,7 @@ argument-hint: "指定要分析的 Sequence Diagram 檔案路徑（如 SD_01_xxx
 | 分析對象 | 規則 |
 |----------|------|
 | 接收方法的輸入參數 | 視為該 Class 持有的屬性候選（如 `registerAccount(username, password, email)` → Account 有 username, password, email） |
-| 回傳值 | 視為該 Class 的輸出屬性或計算結果（如 `-->> RentalSystem: totalFee` → RentalFee 有 totalFee） |
+| 回傳值 | 視為該 Class 的輸出屬性或計算結果（如 `-->> RentalFee: totalFee` → RentalFee 有 totalFee） |
 | Note 中的中文說明 | 輔助判斷屬性語意，不作為屬性名稱 |
 
 屬性命名規則：
